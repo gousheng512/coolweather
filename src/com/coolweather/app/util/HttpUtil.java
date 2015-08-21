@@ -29,7 +29,7 @@ public class HttpUtil {
 						response.append(line);
 					}
 					if(listener!=null){
-						listener.OnFinished(response.toString());
+						listener.OnFinish(response.toString());
 					}
 					
 				}catch(Exception e){

@@ -1,10 +1,10 @@
 package com.coolweather.app.util;
 
-import android.app.PendingIntent.OnFinished;
+//import android.app.PendingIntent.OnFinished;
 
 public interface HttpCallbackListener {
 
-	void OnFinished(String response);
+	void OnFinish(String response);
 
 	void onError(Exception e);
 }
